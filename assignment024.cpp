@@ -17,6 +17,6 @@ int main()
     int c = 17;
     int d = 70;
 
-    cout << char(a+b);
+    cout << char(a + a + a + a + b + c) << char(d - a) << char(d + c) << char(d + b) << char(a + a + a + a + b + c);
     return 0;
 }
